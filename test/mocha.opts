@@ -1,0 +1,4 @@
+--slow 700
+--timeout 30000
+--reporter spec
+--use_strict

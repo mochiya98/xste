@@ -1,0 +1,5 @@
+/test/
+/.eslintrc.js
+/.nycrc
+/.travis.yml
+/gulpfile.js
