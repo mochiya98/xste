@@ -91,6 +91,22 @@ function testXsteParseAll(type){
 			type,
 		});
 		testXsteParse({
+			assert   : "foo\"bar",
+			exec     : ["test", {}],
+			templates: {
+				"test": "foo\"bar",
+			},
+			type,
+		});
+		testXsteParse({
+			assert   : "foo'bar",
+			exec     : ["test", {}],
+			templates: {
+				"test": "foo'bar",
+			},
+			type,
+		});
+		testXsteParse({
 			assert   : "foo\nbar",
 			exec     : ["test", {}],
 			templates: {
