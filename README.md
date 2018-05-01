@@ -1,5 +1,6 @@
 # xste:custard: [![Travis Status](https://travis-ci.org/mochiya98/xste.svg?branch=master)](https://travis-ci.org/mochiya98/xste) [![Coverage Status](https://coveralls.io/repos/github/mochiya98/xste/badge.svg?branch=master)](https://coveralls.io/github/mochiya98/xste?branch=master) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
-_extra small template engine_ (**under 360bytes, not gzipped**)
+_extra small template engine_ (**under 360bytes, not gzipped**)  
+[![NPM](https://nodei.co/npm/xste.png)](https://nodei.co/npm/xste/)  
 > recommend using vdom.
 
 > THIS ENGINE DOESN'T ESCAPE.  
