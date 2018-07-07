@@ -151,7 +151,8 @@ xste.bundle = async function(opts){
 			const template_data = (await fs.readFile(template_filename, "utf8"))
 				.replace(/'/g, "\\'")
 				.replace(/\r\n?/g, "\n")
-				.replace(/\n/g, "\\n");
+				//.replace(/\n/g, "\\n");
+				.replace(/[\t\n]/g, "");
 			source += `xste.add(\'${template_name}\',\'${template_data}\');`;
 		}
 	}else{
