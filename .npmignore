@@ -1,5 +1,6 @@
 /test/
 /.eslintrc.js
 /.nycrc
+/.nyc_output/
 /.travis.yml
 /gulpfile.js
