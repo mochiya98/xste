@@ -23,7 +23,7 @@
     "fancy-log": "^1.3.3",
     "gulp": "^4.0.2",
     "gulp-colorfulkits": "^0.2.1",
-    "gulp-mocha": "^7.0.2",
+    "gulp-mocha": "^8.0.0",
     "gulp-plumber": "^1.2.1",
     "mocha": "^8.1.1",
     "nyc": "^15.1.0",
